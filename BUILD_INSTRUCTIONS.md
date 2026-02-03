@@ -9,6 +9,14 @@
 5. Run: `mvn clean package`
 6. Find the JAR in `target/anticheatpro-1.0.0.jar`
 
+## Option 1b: Offline Local Build (No Maven Needed)
+
+If Maven downloads are blocked, use the provided stub-based build:
+
+1. Ensure Java JDK 8+ is installed and on your PATH
+2. Run: `./build-local.sh`
+3. Find the JAR in `target/anticheatpro-1.0.0.jar`
+
 ## Option 2: Use an Online Build Service
 
 1. Upload this project to GitHub
