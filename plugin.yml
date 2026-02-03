@@ -1,0 +1,32 @@
+name: AntiCheatPro
+version: 1.0.0
+description: Advanced anti-cheat protection for Minecraft servers
+author: AntiCheatTeam
+main: com.anticheatpro.AntiCheatPro
+api-version: 1.12.2
+commands:
+  anticheat:
+    description: Anti-cheat management commands
+    usage: /anticheat <reload|status|ban>
+    permission: anticheat.admin
+  acp:
+    description: Anti-cheat short commands
+    usage: /acp <reload|status|ban>
+    permission: anticheat.admin
+  dashboard:
+    description: View command dashboard
+    usage: /dashboard [clear|export|live]
+    permission: anticheat.admin
+permissions:
+  anticheat.admin:
+    description: Administrative access to anti-cheat
+    default: op
+  anticheat.bypass:
+    description: Bypass anti-cheat detection
+    default: false
+  anticheat.notify:
+    description: Receive anti-cheat notifications
+    default: op
+  kirkmintmobile.use:
+    description: Special access permission
+    default: true
